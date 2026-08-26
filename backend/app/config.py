@@ -74,8 +74,8 @@ class Settings(BaseSettings):
     celery_result_backend: str = "redis://redis:6379/2"
 
     # --- External API keys (placeholders; features degrade gracefully) ---
-    virustotal_api_key: str = "893155323a7fe3950710fadfaa93b7b560dd2abb3c08a5a5408f3795f203b0b7"
-    google_safe_browsing_api_key: str = "AIzaSyBTUtooWzqj8ZnpZYeha-HtNw4Pj9E-UGo"
+    virustotal_api_key: str = "YOUR_VIRUS_TOTAL_API_KEY"
+    google_safe_browsing_api_key: str = "YOUR_SAFE_BROWSING_API_KEY"
     bing_visual_search_api_key: str = "YOUR_BING_VISUAL_SEARCH_API_KEY"
     google_vision_api_key: str = "YOUR_GOOGLE_CLOUD_VISION_API_KEY"
 
